@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel yang Dipercantik dengan Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-6">Data Produk</h1>
+
+        <div class="overflow-x-auto">
+            <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="py-2 px-4 border-b">ID</th>
+                        <th class="py-2 px-4 border-b">Nama Produk</th>
+                        <th class="py-2 px-4 border-b">Harga</th>
+                        <th class="py-2 px-4 border-b">Stok</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-2 px-4 border-b">1</td>
+                        <td class="py-2 px-4 border-b">Produk A</td>
+                        <td class="py-2 px-4 border-b">Rp 100.000</td>
+                        <td class="py-2 px-4 border-b">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border-b">2</td>
+                        <td class="py-2 px-4 border-b">Produk B</td>
+                        <td class="py-2 px-4 border-b">Rp 150.000</td>
+                        <td class="py-2 px-4 border-b">30</td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border-b">3</td>
+                        <td class="py-2 px-4 border-b">Produk C</td>
+                        <td class="py-2 px-4 border-b">Rp 80.000</td>
+                        <td class="py-2 px-4 border-b">25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
