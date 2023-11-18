@@ -1,70 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Struktur Organisasi</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
 
-    <div class="container mx-auto p-8">
-        <h1 class="text-3xl font-bold mb-6">Struktur Organisasi</h1>
+<body class="bg-[#f1f4f5]">
+  <div class="container mx-auto mt-5">
+    <header class="bg-cover bg-center h-64 flex items-center text-white" style="background-image: url('/img/banner.jpg');">
+    </header>
+  </div>
 
-        <div class="mb-8">
-            <!-- CEO -->
-            <div class="flex items-center mb-4">
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center mr-4">
-                    <span class="text-xl font-bold">CEO</span>
-                </div>
-                <div>
-                    <h2 class="text-xl font-bold">John Doe</h2>
-                    <p>Founder & CEO</p>
-                </div>
-            </div>
+  <div class="mx-auto">
+    <nav>
+      <ul class="flex flex-row gap-x-7 text-2xl font-bold item-center mb-6">
+        <li>
+          <a href="/index.html">HOME</a>
+        </li>
+        <li>
+          <a href="/laporan/laporan-keuangan.html">LAPORAN KEUANGAN</a>
+        </li>
+        <li>
+          <a href="">KEGIATAN</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+       
+  <main class="p-8 bg-white">
+    <h2 class="text-2xl font-bold mb-4">Under construction</h2>
+  </main>
 
-            <!-- Chief Officers -->
-            <div class="flex items-center space-x-8">
-                <!-- CTO -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">CTO</span>
-                </div>
-                <!-- CFO -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">CFO</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="mb-8">
-            <!-- Managers -->
-            <div class="flex items-center space-x-8">
-                <!-- IT Manager -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">ITM</span>
-                </div>
-                <!-- Finance Manager -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">FM</span>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <!-- Team Members -->
-            <div class="flex items-center space-x-8">
-                <!-- Developer -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">DEV</span>
-                </div>
-                <!-- Accountant -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <span class="text-xl font-bold">ACC</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
+  <footer class="p-4 bg-gray-200">
+    <p>© 2023 Warga RT.031 RW.005</p>
+  </footer>
 </body>
 </html>
